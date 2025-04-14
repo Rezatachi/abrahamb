@@ -71,7 +71,7 @@ export default function Hero() {
                                 showName ? "opacity-100" : "opacity-0"
                             )}
                         >
-                            "... a creative mind pursues a life of purpose."
+                        &quot;... a creative mind pursues a life of purpose.&quot;
                         </p>
 
                         {/* 🎬 Typing designer/developer */}

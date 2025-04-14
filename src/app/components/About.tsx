@@ -1,6 +1,5 @@
 // components/About.tsx
 import Image from "next/image";
-import clsx from "clsx";
 
 export default function About() {
   return (
@@ -11,10 +10,10 @@ export default function About() {
         className=
         "text-xl text-[#386FA4] mb-6 font-semibold"
           >
-        "IDENTITY"
+        &quot;IDENTITY&quot;
           </p>
           <p className="text-xl md:text-xl font-semibold mt-4">
-        <span className="text-[#386FA4]">hi, i'm</span> <span className="text-[#386FA4]">abraham belayneh</span>
+        <span className="text-[#386FA4]">hi, i&apos;m</span> <span className="text-[#386FA4]">abraham belayneh</span>
         <br />
         <br />
         a software engineer, designer, and photographer based in
@@ -26,7 +25,7 @@ export default function About() {
         <br />
 
         <br />
-        i am currently working as a software engineer at <span className="text-[#386FA4]">snap</span>, where i am fortunate to be part of a team that is driving dynamic and cutting-edge features reaching <span className="text-[#386FA4]">800m+ users</span>. i've previously
+        i am currently working as a software engineer at <span className="text-[#386FA4]">snap</span>, where i am fortunate to be part of a team that is driving dynamic and cutting-edge features reaching <span className="text-[#386FA4]">800m+ users</span>. i&apos;ve previously
         led intiatives at <span className="text-[#386FA4]">nvidia</span> for two summers and pushed substantial contributions to their cloud infrastructure teams.
 
         <br />

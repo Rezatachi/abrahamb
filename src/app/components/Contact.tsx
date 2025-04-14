@@ -26,10 +26,10 @@ export default function Contact() {
   return (
     <section id="contact" className="px-6 md:px-16 py-16 text-black min-h-screen flex items-center justify-center">
       <div className="w-full max-w-2xl">
-        <h2 className="text-xl font-semibold mb-12 text-[#386FA4]">"CONTACT"</h2>
+        <h2 className="text-xl font-semibold mb-12 text-[#386FA4]">&quot;CONTACT&quot;</h2>
 
         {isSubmitted ? (
-          <p className="text-lg text-[#386FA4]">Thank you for reaching out! I'll get back to you soon.</p>
+          <p className="text-lg text-[#386FA4]">Thank you for reaching out! I&apos;ll get back to you soon.</p>
         ) : (
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="flex flex-col">
