@@ -36,7 +36,7 @@ export default function About() {
         </div>
         <div className="flex justify-center items-center ml-6 md:ml-16">
           <Image
-        src="/prof.jpg"
+        src="/prof.png"
         alt="About Image"
         width={500}
         height={500}
