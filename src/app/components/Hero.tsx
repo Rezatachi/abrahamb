@@ -62,8 +62,8 @@ export default function Hero() {
                 </div>
 
                 {/* 🧠 Foreground content */}
-                <div className="relative z-10 flex items-center justify-start min-h-screen px-6 md:px-16 text-left">
-                    <div className="text-left max-w-[40ch] leading-none uppercase tracking-tight min-h-[30rem]">
+                <div className="relative z-10 flex items-center justify-start min-h-screen px-6 md:px-16 text-left sm:text-center">
+                    <div className="max-w-[40ch] leading-none uppercase tracking-tight min-h-[30rem]">
                         {/* ✨ Fade-in name */}
                         <p
                             className={clsx(
@@ -75,7 +75,7 @@ export default function Hero() {
                         </p>
 
                         {/* 🎬 Typing designer/developer */}
-                        <h1 className="text-[3.5rem] md:text-[6rem] font-serif font-bold leading-[0.9] space-y-2">
+                        <h1 className="text-[2rem] md:text-[3.5rem] sm:text-[1.5rem] font-serif font-bold leading-[0.9] space-y-2">
                             {titleLines.map((line, i) => (
                                 <div key={i} className="relative">
                                     <span className="opacity-0">{line}</span>
@@ -92,7 +92,7 @@ export default function Hero() {
                         <div className="h-6" />
                         <p
                             className={clsx(
-                                "text-xl md:text-2xl font-semibold mt-4 text-right transition-opacity duration-700 md:display-none",
+                                "text-xl md:text-2xl font-semibold mt-4 text-right transition-opacity duration-700 sm:hidden",
                                 showParagraph ? "opacity-100" : "opacity-0"
                             )}
                         >

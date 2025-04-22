@@ -34,7 +34,7 @@ export default function About() {
         graduating from the <span className="text-[#386FA4]">california institute of technology</span>, i carry a strong foundation in computer science and engineering. my passions lie in climate technology, social impact ai, and the intersection of design and technology. i am always eager to learn and explore new frontiers in the tech world.
           </p>
         </div>
-        <div className="flex justify-center items-center ml-6 md:ml-16">
+        <div className="flex justify-center items-center mx-auto">
           <Image
         src="/prof.png"
         alt="About Image"
