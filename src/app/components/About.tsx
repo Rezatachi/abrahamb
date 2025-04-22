@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section id="about" className="text-black dark:text-black px-6 md:px-16 h-screen flex flex-col justify-center md:items-center">
+    <section id="about" className="text-black dark:text-black px-6 md:px-16 min-h-screen flex flex-col justify-center md:items-center">
       <div className="flex flex-col md:flex-row items-center py-8 px-6 md:px-16 max-w-7xl mx-auto md:mt-16">
         <div className="flex-2 mb-8 md:mb-0">
           <p

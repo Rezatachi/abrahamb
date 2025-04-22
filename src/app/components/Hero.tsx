@@ -55,7 +55,7 @@ export default function Hero() {
     return (
         <>
             <Navbar />
-            <section className="relative h-screen text-black overflow-hidden px-6 md:px-10 pt-2">
+            <section className="relative min-h-screen text-black overflow-hidden px-6 md:px-10 pt-24">
                 {/* 🌌 Background gradient */}
                 <div className="absolute inset-0 pointer-events-none z-0">
                     <div className="w-full h-full bg-[url('/grain.png')] opacity-[0.06] mix-blend-overlay" />
