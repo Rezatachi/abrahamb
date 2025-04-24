@@ -62,12 +62,12 @@ export default function Hero() {
                 </div>
 
                 {/* 🧠 Foreground content */}
-                <div className="relative z-10 flex items-center justify-start min-h-screen px-6 md:px-16 text-left sm:text-center">
+                <div className="relative z-10 flex items-center justify-start min-h-screen px-6 md:px-16 ">
                     <div className="max-w-[40ch] leading-none uppercase tracking-tight min-h-[30rem]">
                         {/* ✨ Fade-in name */}
                         <p
                             className={clsx(
-                                "text-xl md:text-2xl text-[#386FA4] mb-6 font-semibold transition-opacity duration-700",
+                                "text-2xl md:text-2xl text-[#386FA4] mb-6 font-semibold transition-opacity duration-700",
                                 showName ? "opacity-100" : "opacity-0"
                             )}
                         >
@@ -75,7 +75,7 @@ export default function Hero() {
                         </p>
 
                         {/* 🎬 Typing designer/developer */}
-                        <h1 className="text-[2rem] md:text-[3.5rem] sm:text-[1.5rem] font-serif font-bold leading-[0.9] space-y-2">
+                        <h1 className="text-[6rem] md:text-[4.5rem] sm:text-[2.5rem] font-serif font-bold leading-[0.9] space-y-2">
                             {titleLines.map((line, i) => (
                                 <div key={i} className="relative">
                                     <span className="opacity-0">{line}</span>
@@ -92,7 +92,7 @@ export default function Hero() {
                         <div className="h-6" />
                         <p
                             className={clsx(
-                                "text-xl md:text-2xl font-semibold mt-4 text-right transition-opacity duration-700 sm:hidden",
+                                "text-xl md:text-2xl font-semibold mt-4 text-right transition-opacity duration-700",
                                 showParagraph ? "opacity-100" : "opacity-0"
                             )}
                         >
